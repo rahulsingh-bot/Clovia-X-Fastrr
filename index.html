@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>fastrr × Clovia — Engage Proposal</title>
+<style>
+:root{--bg:#fbf6f6;--ink:#2a1420;--mute:#6f5a63;--plum:#6b1f4b;--rose:#e8a5b8;--card:#fff;--line:#ecdde1;--soft:#f6e6ea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c0f17;--ink:#f6e9ee;--mute:#bba3ad;--plum:#e8a5b8;--rose:#6b1f4b;--card:#2a1824;--line:#43293a;--soft:#34202d}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Segoe UI",system-ui,sans-serif;padding-top:env(safe-area-inset-top,0)}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .5em}
+h1{font-size:clamp(2rem,5vw,3.2rem);max-width:18ch}
+h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+h3{font-size:1.15rem}
+p{margin:0 0 1em;max-width:68ch}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:22px;align-items:center;padding:14px 5vw;overflow-x:auto;white-space:nowrap}
+nav b{font-family:Georgia,serif;font-size:1.2rem;color:var(--plum);margin-right:auto}
+nav a{color:var(--mute);text-decoration:none;font-size:.92rem}
+nav a:hover{color:var(--plum)}
+section{padding:64px 5vw;max-width:1100px;margin:0 auto}
+.hero{padding-top:80px}
+.meta{display:flex;flex-wrap:wrap;gap:12px 40px;margin-top:28px;color:var(--mute);font-size:.95rem}
+.meta strong{display:block;color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card p{margin:0;color:var(--mute);font-size:.96rem}
+.steps{counter-reset:s;display:grid;gap:14px;margin-top:26px}
+.step{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+.step i{counter-increment:s;font-style:normal;width:36px;height:36px;border-radius:50%;background:var(--plum);color:var(--bg);display:grid;place-items:center;font-weight:600}
+.step i::before{content:counter(s)}
+.step p{margin:0;color:var(--mute)}
+.life{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;margin-top:26px;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.life div{padding:18px;background:var(--card);border-right:1px solid var(--line)}
+.life div:last-child{border-right:0}
+.life em{display:block;font-style:normal;color:var(--plum);font-size:.82rem;margin-top:8px}
+.life p{font-size:.92rem;color:var(--mute);margin:0}
+.tablewrap{overflow-x:auto;margin-top:22px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:13px 18px;border-bottom:1px solid var(--line);font-size:.95rem;vertical-align:top}
+th{background:var(--soft);color:var(--plum);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:nth-child(2){font-weight:600;white-space:nowrap}
+td:nth-child(3){color:var(--mute)}
+.note{background:var(--soft);border-radius:12px;padding:16px 20px;margin-top:22px;color:var(--mute);font-size:.92rem}
+.cta{display:inline-block;margin-top:10px;background:var(--plum);color:var(--bg);padding:13px 26px;border-radius:999px;text-decoration:none;font-weight:600}
+footer{padding:36px 5vw calc(36px + env(safe-area-inset-bottom,0));text-align:center;color:var(--mute);font-size:.88rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<nav><b>fastrr</b><a href="#engage">Engage</a><a href="#journey">Customer journey</a><a href="#commercials">Commercials</a><a href="#next">Next steps</a></nav>
+
+<section class="hero">
+<p style="color:var(--plum);font-weight:600">For Clovia · Engage · Proposal for sign-off</p>
+<h1>Keep every Clovia customer coming back after the first order.</h1>
+<p>Engage brings WhatsApp, chatbots, AI calling, email, SMS and RCS into one platform, run day to day by a dedicated Growth Manager. Commercials are laid out on their own section below.</p>
+<div class="meta">
+<span>Prepared for<strong>Clovia — Growth &amp; D2C Team</strong></span>
+<span>Scope<strong>Engage</strong></span>
+<span>Monthly orders<strong>[to be confirmed]</strong></span>
+</div>
+</section>
+
+<section id="engage">
+<h2>What's included in Engage</h2>
+<p>Six capabilities, on the channels your customers already read.</p>
+<div class="grid">
+<div class="card"><h3>WhatsApp: marketing, utility and chat</h3><p>New-collection drops, restocks and cart recovery on marketing. Confirmations and shipping updates on utility. Customer-initiated sessions cost nothing per message.</p></div>
+<div class="card"><h3>Instagram and WhatsApp chatbots</h3><p>Both included in the platform fee. They answer product, size and order questions in the DMs where shoppers already are.</p></div>
+<div class="card"><h3>AI calling for COD confirmation</h3><p>An AI call verifies address and intent on COD orders before they ship, so fewer parcels come back.</p></div>
+<div class="card"><h3>Email, SMS and RCS</h3><p>Email for longer stories and offers, SMS for fast alerts, and RCS for richer, tappable messages where supported.</p></div>
+<div class="card"><h3>AI Assist chatbot on the site</h3><p>An on-site assistant for "which size, which style" questions, with an add-to-cart card built into the chat.</p></div>
+<div class="card"><h3>A dedicated Growth Manager</h3><p>Included in the platform fee. A named person runs journeys, testing and reporting for Clovia.</p></div>
+</div>
+</section>
+
+<section id="journey">
+<h2>One order, five moments, each on the right channel</h2>
+<p>A sample lifecycle for a first-time Clovia customer.</p>
+<div class="life">
+<div><h3>Confirmed</h3><p>Instant order confirmation with the delivery date.</p><em>WhatsApp utility</em></div>
+<div><h3>COD checked</h3><p>An AI call confirms address and intent before dispatch.</p><em>AI Calling</em></div>
+<div><h3>On its way</h3><p>Shipping and out-for-delivery updates, no support ticket needed.</p><em>WhatsApp utility, SMS</em></div>
+<div><h3>Fit and care</h3><p>Sizing, care and styling tips arrive once the parcel does.</p><em>WhatsApp, Email</em></div>
+<div><h3>Complete the set</h3><p>Matching pieces and new arrivals suggested at the right time.</p><em>WhatsApp marketing</em></div>
+</div>
+</section>
+
+<section id="commercials">
+<h2>Engage commercials</h2>
+<p>The full Engage rate card.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Deliverable</th><th>Engage rate</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Platform Fee</td><td>₹10,000</td><td>+ GST per month · includes Growth Manager, WhatsApp Chatbot and Instagram Chatbot</td></tr>
+<tr><td>WhatsApp Marketing</td><td>₹0.87</td><td>+ GST per message · charged on delivered</td></tr>
+<tr><td>WhatsApp Utility</td><td>₹0.10</td><td>+ GST per message</td></tr>
+<tr><td>WhatsApp Session</td><td>₹0</td><td>Customer-initiated chats are free</td></tr>
+<tr><td>Email</td><td>₹0.04</td><td>+ GST per email</td></tr>
+<tr><td>SMS</td><td>₹0.10</td><td>+ GST per message</td></tr>
+<tr><td>RCS</td><td>₹0.20</td><td>+ GST per message</td></tr>
+<tr><td>AI Calling</td><td>₹3</td><td>+ GST per connected call, per minute</td></tr>
+<tr><td>AI Assist Chatbot</td><td>₹6,000</td><td>+ GST platform fee and 2% of GMV on chatbot-driven conversions</td></tr>
+<tr><td>RTO Suite</td><td>₹4</td><td>+ GST per order</td></tr>
+</tbody></table></div>
+<p class="note"><b>Reading this page:</b> the platform fee covers the Growth Manager and the WhatsApp and Instagram chatbots. Message, call and RTO Suite charges are usage-based on top. All amounts are exclusive of GST.</p>
+</section>
+
+<section id="next">
+<h2>What happens next</h2>
+<div class="steps">
+<div class="step"><i></i><div><h3>Confirm the scope</h3><p>Sign off on the Engage rate card above.</p></div></div>
+<div class="step"><i></i><div><h3>Set up and integrate</h3><p>Channels are connected and your Growth Manager configures the first journeys.</p></div></div>
+<div class="step"><i></i><div><h3>Go live, then review together</h3><p>The first numbers are reviewed against Clovia's own traffic and orders.</p></div></div>
+</div>
+<p style="margin-top:28px"><a class="cta" href="#">Confirm and kick off</a></p>
+</section>
+
+<footer>Prepared for Clovia — Engage. Commercials as stated above; no other terms implied.</footer>
+</body>
+</html>
